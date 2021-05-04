@@ -9,6 +9,14 @@ class Grammar {
     val constant: Int = 10
     var variable: Int = 20
 
+    //타입 추론
+    var p1 = 1
+    var p2 = "String"
+    var p3 = true
+    var p4 = 4L
+    var p5 = 1.1
+    var p6 = intArrayOf(1,2,3,4)
+
     /**
      * 파라미터 받아서 출력
      */
