@@ -49,4 +49,26 @@ class JunitTest {
         JavaToKotlin.add()
         JavaToKotlin.print()
     }
+
+    @Test
+    fun testEnumeration(){
+        println(Color.RED.getCode())
+        println(Color.GREEN.getCode())
+        println(Color.BLUE.getCode())
+
+        println(Code.getId(Code.CODE_A))
+        println(Code.getName(Code.CODE_A))
+        println(Code.getId(Code.CODE_B))
+        println(Code.getName(Code.CODE_B))
+        println(Code.getId(Code.CODE_C))
+        println(Code.getName(Code.CODE_C))
+
+        println(Code.CODE_A.codeId)
+        println(Code.CODE_A.codeName)
+        println(Code.CODE_B.codeId)
+        println(Code.CODE_B.codeName)
+        println(Code.CODE_C.codeId)
+        println(Code.CODE_C.codeName)
+
+    }
 }
